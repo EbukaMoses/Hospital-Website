@@ -1,0 +1,82 @@
+.left {
+  margin-right: 25px;
+}
+.AboutMission .left h1 {
+  color: #04048b;
+  margin-bottom: 8px;
+  font-weight: 900;
+}
+.AboutMission .left h1:nth-child(n) {
+  margin-top: 40px;
+}
+.left .details {
+  display: flex;
+  align-items: center;
+  padding: 15px 0px;
+}
+.fa1 {
+  padding: 12px;
+}
+.fa2 {
+  padding: 12px 15px;
+}
+.fa3 {
+  padding: 12px 10px;
+}
+.fa4 {
+  padding: 13px 10px;
+}
+.left .details i {
+  color: #6c6c6c;
+  font-size: 25px;
+  border: 3px solid #6c6c6c;
+  margin-right: 8px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.AboutMission {
+  background-color: #f5f5f5;
+}
+.AboutMission .right {
+  background-color: #fff;
+  padding: 40px 0px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.AboutMission .right h1 {
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.AboutMission .right h6 {
+  font-size: 16px;
+  padding: 0px 30px 40px 30px;
+  font-weight: 100;
+}
+.table {
+  border-top: 1px solid #000;
+  margin: 40px 40px;
+  width: 350px;
+  padding-top: 40px;
+}
+.table h2 {
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.table p {
+  font-size: 20px;
+  line-height: 20px;
+}
+@media screen and (max-width: 906px) {
+  .AboutMission .flex2 {
+    flex-direction: column;
+  }
+  .AboutMission .left {
+    margin-bottom: 5% !important;
+  }
+}

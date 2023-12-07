@@ -1,0 +1,38 @@
+.mission {
+  background-image: url("/public/images/hero.jpg"),
+    linear-gradient(rgba(13, 13, 15, 0.763), rgba(18, 18, 21, 0.664));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -2;
+}
+.mission .card {
+  padding: 6% 7%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-left: 4px solid #0555b7;
+  background-color: #fff;
+  width: 400px;
+  /* display: flex;
+  flex-direction: column; */
+}
+.mission .card h1 {
+  font-size: 1.7rem;
+  text-align: center;
+  font-weight: 800;
+  color: #0000ba;
+  margin-bottom: 5px;
+}
+.mission .card p {
+  font-size: 14px;
+  color: #000;
+}
+@media screen and (max-width: 768px) {
+  .mission .flex {
+    flex-direction: column;
+  }
+  .mission .card {
+    width: 100;
+    margin-bottom: 3%;
+  }
+}

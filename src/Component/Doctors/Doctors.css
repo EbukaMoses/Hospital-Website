@@ -1,0 +1,25 @@
+.doctorCard .container {
+  display: flex;
+  gap: 5%;
+  flex-wrap: wrap;
+}
+.personCard {
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  width: 30%;
+  height: 40%;
+}
+.personCard img {
+  width: 100%;
+  object-fit: cover;
+}
+.personCard .personDetail {
+  padding: 19px;
+}
+.personDetail h2 {
+  /* margin-top: ; */
+}
+.personDetail span {
+  margin: 18px!important;
+  font-style: italic;
+  font-weight: 700;
+}

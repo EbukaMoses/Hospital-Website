@@ -1,0 +1,62 @@
+.Habout .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 60px;
+}
+.Habout .left {
+  display: flex;
+}
+.Habout .left img {
+  max-width: 50%;
+  margin-right: 25px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  filter: drop-shadow(8px 2px 4px #9e9b9b);
+  -webkit-filter: drop-shadow(8px 2px 4px #9e9b9b);
+}
+.Habout .left img:nth-child(2) {
+  margin-top: 45px;
+  margin-bottom: 80px;
+}
+.Habout .heading {
+  text-align: left;
+  width: 60%;
+  margin: 0px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.Habout .heading h1 {
+  color: #05117a;
+  font-weight: 800 !important;
+  margin-bottom: 12px;
+}
+.Habout .heading p {
+  color: #05117a;
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 22px !important;
+}
+.Habout .Hright {
+  margin-top: 14%;
+}
+.Habout .Hright p {
+  color: #000;
+  font-size: 14px;
+  line-height: 25px;
+}
+.Habout .Hright .btn_bg {
+  margin-top: 4%;
+}
+@media screen and (max-width: 768px) {
+  .Habout .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-gap: 60px; */
+  }
+  .Habout .Hright {
+    /* margin-top: -1px; */
+  }
+}

@@ -1,0 +1,81 @@
+.footerContact {
+  background-color: #27ae60;
+  padding: 40px 0;
+  color: #fff;
+}
+.footerContact h1 {
+  font-size: 40px;
+}
+footer {
+  background-color: #1d2636;
+  padding: 50px 0;
+  color: #fff;
+}
+footer .container {
+  display: grid;
+  grid-template-columns: 6fr 2fr 2fr;
+  grid-gap: 100px;
+}
+footer img {
+  width: 200px;
+}
+footer p {
+  color: grey;
+  font-size: 15px;
+  margin: 10px 0;
+}
+footer .contact {
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+  /* gap: 20px; */
+}
+footer .contact a {
+  color: grey;
+  font-size: 15px;
+  text-transform: lowercase;
+}
+
+footer .social {
+  display: flex;
+  margin-top: 5px;
+}
+footer .social i {
+  color: #fff;
+  padding-right: 10px;
+  /* width: 100%; */
+}
+footer h3 {
+  font-weight: 500;
+  margin-bottom: 20px;
+  border-left: 3px solid rgb(255, 255, 255);
+  padding-left: 6px;
+}
+footer ul {
+  display: block;
+}
+footer ul li a {
+  display: block;
+  color: grey;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+.legal {
+  text-align: center;
+  padding: 20px;
+  background-color: #1d2636;
+  color: rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+@media screen and (max-width: 800px) {
+  footer .container {
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 50px;
+  }
+}
+@media screen and (max-width: 650px) {
+  footer .container {
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
+}
